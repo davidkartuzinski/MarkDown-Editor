@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <title>MarkEdit: A simple MarkDown editor</title>
+  </head>
+  <body>
+    <div class="main-content">
+      <textarea
+        name=""
+        id="text-editor"
+        class="text-editor"
+        spellcheck="false"
+        autocomplete="off"
+        autofocus
+        placeholder="MarkDown Editor"
+      ></textarea>
+      <div id="preview" class="preview"></div>
+    </div>
+    <script src="showdown.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
